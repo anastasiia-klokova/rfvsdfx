@@ -1,0 +1,413 @@
+### Структура проекта
+1. **index.html** — Главная страница.
+2. **videos.html** — Страница с видеоуроками.
+3. **articles.html** — Страница со статьями.
+4. **tests.html** — Страница с тестами.
+6. **resources.html** — Страница с полезными ресурсами.
+7. **forum.html** — Страница форума.
+10. **styles.css** — CSS-файл для стилизации.
+
+### Пример кода для каждой страницы
+
+#### 1. index.html (Главная страница)
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подготовка к ОГЭ и ЕГЭ по Информатике</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Подготовка к ОГЭ и ЕГЭ по Информатике</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="videos.html">Видеоуроки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="tests.html">Тесты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Добро пожаловать на платформу!</h2>
+<p>Здесь вы найдете все необходимые материалы для успешной подготовки к ОГЭ и ЕГЭ по информатике. Мы предлагаем видеоуроки, статьи, тесты и множество полезных ресурсов.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Подготовка к ОГЭ и ЕГЭ по Информатике. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### 2. videos.html (Страница с видеоуроками)
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видеоуроки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Видеоуроки</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="videos.html">Видеоуроки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="tests.html">Тесты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="videos">
+            <h2>Наши видеоматериалы</h2>
+            <div class="video">
+                <h3>Введение в информатику</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <p>Основные понятия и темы для понимания информатики.</p>
+            </div>
+            <div class="video">
+                <h3>Основы программирования на Python</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <p>Изучите основы программирования с помощью языка Python.</p>
+            </div>
+            <div class="video">
+                <h3>Алгоритмы и структуры данных</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <p>Разберем основные алгоритмы и структуры данных, которые могут встретиться на экзамене.</p>
+</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Подготовка к ОГЭ и ЕГЭ по Информатике. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### 3. articles.html (Страница со статьями)
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статьи</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Статьи</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="videos.html">Видеоуроки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="tests.html">Тесты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="articles">
+            <h2>Полезные статьи</h2>
+            <article>
+                <h3>Как успешно подготовиться к ЕГЭ по информатике</h3>
+                <p>Подготовка к ЕГЭ требует систематического подхода. Вот несколько советов:</p>
+                <ul>
+                    <li>Составьте расписание занятий.</li>
+                    <li>Используйте качественные учебные материалы и видео.</li>
+                    <li>Регулярно проходите тесты и задания.</li>
+                </ul>
+                <a href="#">Читать далее</a>
+            </article>
+            <article>
+                <h3>Типовые задания ЕГЭ по информатике</h3>
+                <p>Изучите типовые задания, которые могут встретиться на экзамене:</p>
+                <ul>
+                    <li>Задания на алгоритмы и структуры данных.</li>
+                    <li>Практические задания по программированию.</li>
+<li>Задания на работу с базами данных.</li>
+                </ul>
+                <a href="#">Читать далее</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Подготовка к ОГЭ и ЕГЭ по Информатике. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### 4. tests.html (Страница с тестами)
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тесты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Тесты</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="videos.html">Видеоуроки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="tests.html">Тесты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tests">
+            <h2>Проверьте свои знания</h2>
+            <p>Выберите тест для прохождения:</p>
+            <ul>
+                <li><a href="#">Тест по основам информатики</a></li>
+                <li><a href="#">Тест по программированию на Python</a></li>
+                <li><a href="#">Тест на знание алгоритмов</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Подготовка к ОГЭ и ЕГЭ по Информатике. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
+
+
+
+#### 6. resources.html (Страница с ресурсами)
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полезные ресурсы</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Полезные ресурсы</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="videos.html">Видеоуроки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="tests.html">Тесты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="resources">
+<h2>Полезные ресурсы для подготовки</h2>
+            <p>Мы собрали для вас несколько полезных ресурсов:</p>
+            <ul>
+                <li><a href="https://www.ege-2023.ru" target="_blank">Официальный сайт ЕГЭ</a></li>
+                <li><a href="https://www.oge-2023.ru" target="_blank">Официальный сайт ОГЭ</a></li>
+                <li><a href="https://www.informatics.ru" target="_blank">Сайт по информатике</a></li>
+                <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy - ресурсы для изучения программирования</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Подготовка к ОГЭ и ЕГЭ по Информатике. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### 7. forum.html (Страница форума)
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форум</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Форум</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="videos.html">Видеоуроки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="tests.html">Тесты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="forum">
+            <h2>Обсуждения и вопросы</h2>
+            <p>Обсуждайте темы, задавайте вопросы и делитесь опытом с другими участниками:</p>
+            <ul>
+                <li><a href="#">Тема: Подготовка к ЕГЭ по информатике</a></li>
+                <li><a href="#">Тема: Советы по программированию</a></li>
+                <li><a href="#">Тема: Рекомендации по учебникам</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+<p>&copy; 2023 Подготовка к ОГЭ и ЕГЭ по Информатике. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
+
+#### 8. about.html (Страница "О нас")
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>О нас</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="videos.html">Видеоуроки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="tests.html">Тесты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>О нашей платформе</h2>
+            <p>Мы предоставляем платформу для подготовки к ОГЭ и ЕГЭ по информатике с помощью видеоуроков и статей, разработанных опытными преподавателями.</p>
+            <p>Наша команда состоит из профессионалов в области образования и информационных технологий, которые стремятся помочь учащимся добиться успеха.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Подготовка к ОГЭ и ЕГЭ по Информатике. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
+
+
+
+### styles.css (CSS-файл для стилизации)
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+```
+

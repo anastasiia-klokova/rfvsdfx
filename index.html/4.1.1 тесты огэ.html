@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест №1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Тесты</h1>
+        <nav>
+            <ul>
+                <li><a href="1 страница.html">Главная </a></li>
+                <li><a href="1.1 огэ.html">Статьи</a></li>
+                <li><a href="2.1 страница задания огэ.html">Задания</a></li>
+                <li><a href="3.1 видеоуроки огэ copy.html">Видеоуроки</a></li>
+                <li><a href="4.1 тесты огэ.html">Тесты</a></li>
+                <li><a href="5.1 банк заданий.огэ.htm">Банк заданий </a></li>
+                <li><a href="7.resources.html">Ресурсы</a></li>
+            </ul>
+        </nav>
+    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Тестовые задания</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            .result {
+                margin-top: 10px;
+                font-weight: bold;
+            }
+            .question {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовые задания</title>
+    <style>
+        .question {
+            margin-bottom: 20px;
+        }
+        .result {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+  
+
+
+    <h1>Тестовые задания</h1>
+
+    <div class="question">
+        <h5>Количественные параметры информационных объектов</h5>
+        <h3>Задание 1</h3>
+        <p>В кодировке КОИ-8 каждый символ кодируется 8 битами. Андрей написал текст: «Обь, Лена, Волга, Москва, Макензи, Амазонка — реки». Ученик вычеркнул из списка название одной из рек. Напишите в ответе вычеркнутое название реки.</p>
+        <input type="text" id="answer1" placeholder="Ваш ответ">
+        <button onclick="checkAnswer('answer1', 'москва', 'result1')">Проверить ответ</button>
+        <div id="result1" class="result"></div>
+    </div>
+
+    <div class="question">
+        <h3>Задание 2</h3>
+        <p>В кодировке КОИ-8 каждый символ кодируется 8 битами. Андрей написал текст (в нем нет лишних пробелов):
+            «Чад, Куба, Катар, Швеция, Эстония, Танзания, Сальвадор — страны».
+            Ученик вычеркнул из списка название одной из стран. Заодно он вычеркнул ставшие лишними запятые и пробелы — два пробела не должны идти подряд.
+            При этом размер нового предложения в данной кодировке оказался на 11 байтов меньше, чем размер исходного предложения. Напишите в ответе вычеркнутое название страны.
+        </p>
+        <input type="text" id="answer2" placeholder="Ваш ответ">
+        <button onclick="checkAnswer('answer2', 'сальвадор', 'result2')">Проверить ответ</button>
+        <div id="result2" class="result"></div>
+    </div>
+
+    <div class="question">
+        <h3>Задание 3</h3>
+        <p>Какой самый длинный река в мире?</p>
+        <input type="text" id="answer3" placeholder="Ваш ответ">
+        <button onclick="checkAnswer('answer3', 'амазонка', 'result3')">Проверить ответ</button>
+        <div id="result3" class="result"></div>
+    </div>
+
+    <div class="question">
+        <h3>Задание 4</h3>
+        <p>Назовите столицу Франции.</p>
+        <input type="text" id="answer4" placeholder="Ваш ответ">
+        <button onclick="checkAnswer('answer4', 'париж', 'result4')">Проверить ответ</button>
+        <div id="result4" class="result"></div>
+    </div>
+
+    <div class="question">
+        <h3>Задание 5</h3>
+        <p>Какой элемент периодической таблицы обозначается символом 'O'?</p>
+        <input type="text" id="answer5" placeholder="Ваш ответ">
+        <button onclick="checkAnswer('answer5', 'кислород', 'result5')">Проверить ответ</button>
+        <div id="result5" class="result"></div>
+    </div>
+
+    <script>
+        function checkAnswer(answerId, correctAnswer, resultId) {
+            const userAnswer = document.getElementById(answerId).value.trim().toLowerCase();
+            const resultElement = document.getElementById(resultId);
+
+            if (userAnswer === correctAnswer) {
+                resultElement.textContent = "Ответ верный!";
+                resultElement.style.color = "green";
+            } else {
+                resultElement.textContent = "Ответ неверный. Попробуйте снова.";
+                resultElement.style.color = "red";
+            }
+        }
+    </script>
+</body>
+</html>
+            
+            
+        </script>
+    </body>  
+    
